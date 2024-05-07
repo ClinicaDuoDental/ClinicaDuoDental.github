@@ -1,0 +1,221 @@
+body{
+	background-image:url("../imagenes/fondo9.jpg");
+	color:#000000;
+	font-family:"Lucida Console", "Courier New", monospace;
+	font-size:30px;
+}
+p{
+	text-align:justify;
+	/*font-size es para el tamaño del texto*/
+	font-size:15px;
+}
+
+hr{
+	border: 1px solid #1F618D;
+	/*border-radius es para el terminado de las orillas de la linea. el radio se expresa en pixeles */
+	border-radius:1px;
+}
+table,tr,td{
+	/* Grosor, tipo linea, color de la linea*/
+	border:1px solid #1F618D;
+	border-spacing: 0px;
+	/*Color de fondo de las celdas*/
+	background-color:#99CCEE;
+	text-align:center;
+	font-size:15px;
+}
+th{
+	/*background-color:#FFFFFF*/
+}
+ul{
+	list-style-type:circle;
+	list-style-position:inside;
+}
+ol{
+	list-style-type:lower-alpha;
+	list-style-position:inside;
+}
+@font-face{
+	font-family:
+	src:url("../fonds/")
+}
+.pie{
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+}
+.encabezado{
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;	
+}
+.img-marquee{
+	height:400px;
+	width:400px;
+}
+.img-producto{
+	height:300px;
+	width:300px;
+	/*border-radius:5%*/
+}
+.img-controller{
+	height:50px;
+	width:50px:
+}
+*{
+	margin:0px;
+}
+div#top{
+	padding:30px;
+	width:100%;
+	height:60px;
+	background-color:#4696CB;
+	/*background-image:url("../imagenes/) background-repeat:no-repeat*/
+	background-image: linear-gradient(#4696CB,#ace6ea);
+	/*background-image: linear-gradient(#4696CB,#84C8F6); radial-gradient empieza del centro hacia afuera*/
+}
+div#piediv{
+	margin:0px;
+	padding:20px;
+	width:100%;
+	height:70px;
+	background-color:#4696CB;
+	background-image: linear-gradient(#4696CB,#d3f1f3);
+}
+div#principal{
+	width:100%;
+	background-color:#ace6ea;
+}
+.caja{
+	height:400x;
+	width:350px;
+	background:#eee;
+	border: 1px solid #eee;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow: 0 0 10px blue;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:black;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+.carrousel{
+    width:600px;
+    margin:auto;
+    /*Hace que el padding y el border pasen a formar
+    parte del calculo de la caja y no de la suma */
+    box-sizing:border-box;
+}
+
+.conteCarrousel{
+    width:100%;
+    height:400px;
+    /*Hace que el navegador oculte
+    todos los contenidos que salen del div*/
+    overflow:hidden;
+    box-sizing:border-box;
+}
+
+.itemCarrousel{
+    /*La nueva Posicion del elemento en relacioncion de
+    un elemento con su posicion normal*/
+    position:relative;
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+}
+
+.itemCarrouselTarjeta{
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+}
+
+.itemCarrouselArrows{
+    /*Hace que un elemento se coloque
+    respecto a su contenedor posicionado
+    mas cercano*/
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:100%;
+    width:100%;
+    /*Ayuda a colocar las caja como si
+    fueran celdas de tablas*/
+    display:flex;
+    align-items:center;
+    /*Distribuye el espacion entre los
+    objetos y su alrededor*/
+    justify-content:space-between;
+    padding:20px;
+    box-sizing:border-box;
+}
+.itemCarrouselArrows > i:hover {
+    cursor:pointer;
+}
+
+.conteCarrouselController{
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration:none;
+    font-size:32px;
+    color:grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color:white;
+}
+a:link{
+	text-decoration:none;
+}
+.caja1{
+	height:200px;
+	width:600px;
+	background:#4696CB;
+	border:#d3f1f3
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja2{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:30px;
+	color:black;
+	font-weight:bold;
+}
+.caja-nombre{
+	font-family:
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:30px;
+	color:black;
+	font-weight:bold;
+}
+.caja-descripcion{
+	font-family:
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:black;
+	font-weight:bold;
+}
